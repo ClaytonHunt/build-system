@@ -13,9 +13,10 @@ var config = {
   devBaseUrl: 'http://localhost',
   paths: {
     html: clientBase + '/*.html',
-    amd:clientBase + '/scripts/thirdParty/requirejs/*.js', 
-    js: clientBase + '/scripts/business/app.jsx',
-    jsWatch: clientBase + '/scripts/business/**/*.js*',    
+    images: clientBase + '/images/**/*.*',
+    js: clientBase + '/scripts/business/main.jsx',
+    jsWatch: clientBase + '/scripts/business/**/*.js*',
+    jsThirdParty: [],
     css: [
       clientBase + '/styles/business/**/*.less'
     ],

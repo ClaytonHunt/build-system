@@ -1,6 +1,6 @@
 'use strict';
 
-import React from '../../thirdParty/react/react';
+import React from '../../../thirdParty/react/react';
 
 let HomePage = React.createClass({
   render: function() {
